@@ -31,7 +31,7 @@ body {
         transform: rotate(0);
     }
 }
-.bowl :after {
+.bowl:after {
     content: "";
     position: absolute;
     width: 100px;
@@ -41,8 +41,8 @@ body {
     border: 2px solid white;
     left: 50%;
     top: -4px;
-    transform: translatex(-50%);
-    z-index: 100;
+    transform: translatex(-50% );
+    z-index: -100;
 }
 .water {
     height: 190px;
@@ -72,7 +72,7 @@ body {
 .water:after {
     content: "";
     position: absolute;
-    width: 100px;
+    width: 190px;
     height: 30px;
     background: #0f5e9c;
     border-radius: 50%;
@@ -100,10 +100,10 @@ body {
     z-index: -100;
     transform: rotate(-20deg);
     left: 14px;
-    bottom: -24px;
+    bottom: 24px;
     border-radius: 50% 50% 0% 0%;
 }
-.fin.bottom{
+.fin.bottom {
     z-index: -100;
     transform: rotate(20deg);
     left: 14px;
